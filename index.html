@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipkartClone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="Container-fluid cont">
+    <header>
+        <div class="logo">
+             <img src="./images/fkheaderlogo_exploreplus-44005d.svg" alt="" class="logoimg">
+        </div>
+        <div class="searchber">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search for Products, Brands and More">
+        </div>
+        <div class="login hiconcss">
+            <i class="fa-regular fa-circle-user"></i>
+            <a class="nav-link dropdown-toggle d-inline drop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>Login</span></a>
+            <!-- <i class="ldicon fa-solid fa-angle-down"></i> -->
+            <ul class="dropdown-menu" id="drops">
+                <li><a class="dropdown-item" href="#">New Customer? <span id="kk">Sign Up</span></a></li>
+  
+                <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i> My Profile</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-plus"></i> flipkart Plus zone</a></li>
+              
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cart-shopping"></i> orders</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-heart"></i> Whishlist</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-forward"></i> Reward</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gift"></i> Gift Cards </a></li>
+  
+            </ul>
+        </div>
+        <div class="Cart hiconcss">
+            <i class="fa-solid fa-cart-plus"></i>
+            <span>Cart</span>
+        </div>
+        <div class="seller hiconcss">
+            <i class="fa-solid fa-store"></i>
+            <span>Become a Seller</span>
+        </div>
+        <div class="menudot">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+    </header>
+
+
+    <!-- ================================================== -->
+
+    <section class="Containers sec1">
+        <div class="catagory catsec1">
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat1.webp" alt="">
+                </div>
+                <div class="catinfo">
+                    <p>Grocery</p>
+                </div>
+            </div>
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat2.webp" alt="">
+                </div>
+                <div class="catinfo">
+                    <p>Mobiles</p>
+                </div>
+            </div>
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat3.webp" alt="">
+                </div>
+                <div class="catinfo fashion">
+                    <p>Fashion <i class="fa-solid fa-angle-down" id="fasicon"></i></p>
+                    
+                </div>
+                <div class="hov">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                    <p>Women Footwear</p>
+                    <p>Watches and Accessories</p>
+                    <p>Bags, Suitscases & Luggage</p>
+                    <p>Kids</p>
+                    <p>Essentials</p>
+                    <p>Winter</p>
+                </div>
+                <div class="hov2">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                    <p>Women Footwear</p>
+                    <p>Watches and Accessories</p>
+                    <p>Bags, Suitscases & Luggage</p>
+                    <p>Kids</p>
+                    <p>Essentials</p>
+                    <p>Winter</p>
+                </div>
+            </div>
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat4.webp" alt="">
+                </div>
+                <div class="catinfo electro">
+                    <p>Electronics <i class="fa-solid fa-angle-down" id="fasicon"></i></p>
+                </div>
+                <div class="hov">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                    <p>Women Footwear</p>
+                    <p>Watches and Accessories</p>
+                    <p>Bags, Suitscases & Luggage</p>
+                    <p>Kids</p>
+                    <p>Essentials</p>
+                    <p>Winter</p>
+                </div>
+                <div class="hov2">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                    <p>Women Footwear</p>
+                    <p>Watches and Accessories</p>
+                    <p>Bags, Suitscases & Luggage</p>
+                    <p>Kids</p>
+                    <p>Essentials</p>
+                    <p>Winter</p>
+                </div>
+            </div>
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat5.webp" alt="">
+                </div>
+                <div class="catinfo furni">
+                    <p>Home & Furniture <i class="fa-solid fa-angle-down" id="fasicon"></i></p>
+                </div>
+                <div class="hov">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                    <p>Women Footwear</p>
+                    <p>Watches and Accessories</p>
+                    <p>Bags, Suitscases & Luggage</p>
+                    <p>Kids</p>
+                    <p>Essentials</p>
+                    <p>Winter</p>
+                </div>
+                <div class="hov2">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                    <p>Women Footwear</p>
+                    <p>Watches and Accessories</p>
+                    <p>Bags, Suitscases & Luggage</p>
+                    <p>Kids</p>
+                    <p>Essentials</p>
+                    <p>Winter</p>
+                </div>
+            </div>
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat6.webp" alt="">
+                </div>
+                <div class="catinfo">
+                    <p>Appliances</p>
+                </div>
+            </div>
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat7.webp" alt="">
+                </div>
+                <div class="catinfo">
+                    <p>Travel</p>
+                </div>
+            </div>
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat8.webp" alt="">
+                </div>
+                <div class="catinfo beauty">
+                    <p>Beauty,Toys & More <i class="fa-solid fa-angle-down" id="fasicon"></i></p>
+                </div>
+                <div class="hov">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                    <p>Women Footwear</p>
+                    <p>Watches and Accessories</p>
+                    <p>Bags, Suitscases & Luggage</p>
+                    <p>Kids</p>
+                    <p>Essentials</p>
+                    <p>Winter</p>
+                </div>
+                <div class="hov2">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                    <p>Women Footwear</p>
+                    <p>Watches and Accessories</p>
+                    <p>Bags, Suitscases & Luggage</p>
+                    <p>Kids</p>
+                    <p>Essentials</p>
+                    <p>Winter</p>
+                </div>
+            </div>
+            <div class="catimginfo">
+                <div class="catimg">
+                    <img src="./images/cat9.webp" alt="">
+                </div>
+                <div class="catinfo wheeler">
+                    <p>Two Wheelers <i class="fa-solid fa-angle-down" id="fasicon"></i></p>
+                </div>
+                <div class="hov">
+                    <p class="pt-4">Men's Top Wear</p>
+                    <p>Mens'Bottom Wear</p>
+                    <p>Women Ethnic</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Mobile View Sec1 -->
+    <div class="media-scroller snaps-inline">
+        <div class="media-element">
+          <img src="./images/cat1.webp" alt="">
+          <p class="title">Grocery</p>
+        </div>
+        <div class="media-element">
+          <img src="./images/cat2.webp" alt="">
+          <p class="title">Mobiles</p>
+        </div>
+        <div class="media-element">
+          <img src="./images/cat3.webp" alt="">
+          <p class="title fash">Fashion</p>
+        </div>
+        <div class="media-element">
+          <img src="./images/cat4.webp" alt="">
+          <p class="title">Electronics</p>
+        </div>
+        <div class="media-element">
+          <img src="./images/cat5.webp" alt="">
+          <p class="title">Home & Furniture</p>
+        </div>
+        <div class="media-element">
+          <img src="./images/cat6.webp" alt="">
+          <p class="title">Appliances</p>
+        </div>
+        <div class="media-element">
+          <img src="./images/cat7.webp" alt="">
+          <p class="title">Travel</p>
+        </div>
+        <div class="media-element">
+          <img src="./images/cat8.webp" alt="">
+          <p class="title">Beauty, Toys & More</p>
+        </div>
+        <div class="media-element">
+          <img src="./images/cat9.webp" alt="">
+          <p class="title">Two Wheelers</p>
+        </div>
+        
+        
+        
+      </div>
+
+
+    <!-- ======================================================== -->
+    <section class="Containers sec">
+        <div class="sliderContainers">
+            <div class="slider2 " >
+                <img src="./images/big.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="Containers sec2">
+        <div class="sliderContainers">
+            <div class="slider " >
+               
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./images/c1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/c2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item"data-bs-interval="2000">
+                        <img src="./images/c3.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item"data-bs-interval="2000">
+                        <img src="./images/c4.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="slidericon">
+                        <button class="carousel-control-prev "  type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" id="sileft">
+                          <span class="carousel-control-prev-icon " aria-hidden="true" ></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true" id="siright"></span>
+                        </button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================ -->
+    <section class="Containers sec3">
+        <div class="productsectin1">
+            <div class="psleft">
+                <div class="productheader">
+                    <h3>Best of Electronics</h3>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="productgroup">
+                    <div class="product">
+                        <div class="productimg im1">
+                            <img src="./images/airpode.png" alt="" id="air">
+                        </div>
+                        <div class="productinfo">
+                            <p>Best Truewireless Headphone</p>
+                            <h6 id="grab">Grab Now</h6>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="productimg im2">
+                            <img src="./images/watch.png" alt="">
+                        </div>
+                        <div class="productinfo">
+                            <p>Fastrack Smartwatches</p>
+                            <h6>From &#x20B9;1,399</h6>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="productimg im3">
+                            <img src="./images/speaker.png" alt="">
+                        </div>
+                        <div class="productinfo">
+                            <p>Best selling Speaker</p>
+                            <h6>From &#x20B9;499</h6>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="productimg im4">
+                            <img src="./images/watch2.png" alt="">
+                        </div>
+                        <div class="productinfo">
+                            <p>Noise Smartwatches</p>
+                            <h6>From &#x20B9;1,099</h6>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="productimg im5">
+                            <img src="./images/camera.png" alt="">
+                        </div>
+                        <div class="productinfo">
+                            <p>Top Mirrorless Cameras</p>
+                            <h6>Shop Now!</h6>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="productimg im6">
+                            <img src="./images/monitor.png" alt="">
+                        </div>
+                        <div class="productinfo">
+                            <p>Asus Monitors</p>
+                            <h6>From &#x20B9;14,999</h6>
+                        </div>
+                    </div>
+
+
+                    <div class="productiright">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="psright">
+                <img src="./images/productright.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- ============================================================ -->
+
+    <section class="Containers sec4">
+        <div class="productheader">
+            <h3>Beauty, Food, Toys & more</h3>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="media-scroller2 snaps-inline2">
+            <div class="media-element2 s1">
+              <img src="./images/cycle.png" alt="">
+              <div class="item">
+                  <p class="title2">Geared Cycles</p>
+                  <h6>Upto 70& off</h6>
+              </div class="item">
+            </div>
+            <div class="media-element2 s2">
+              <img src="./images/peanut.png" alt="">
+              <div class="item">
+                  <p class="title2">Food Spreads</p>
+                  <h6>Upto 75% off</h6>
+              </div>
+            </div>
+            <div class="media-element2 s3">
+              <img src="./images/softtoy.png" alt="">
+              <div class="item">
+                  <p class="title2 fash">Soft Toys</p>
+                  <h6>Upto 70% off</h6>
+              </div>
+            </div>
+            <div class="media-element2 s4">
+              <img src="./images/gym.png" alt="">
+              <div class="item">
+                  <p class="title2">Gym Essentials</p>
+                  <h6>From &#x20B9;139</h6>
+              </div>
+            </div>
+            <div class="media-element2 s5">
+              <img src="./images/music.png" alt="">
+              <div class="item">
+                  <p class="title2">String Instruments</p>
+                  <h6>Upto 70% off</h6>
+              </div>
+            </div>
+            <div class="media-element2 s6">
+              <img src="./images/music2.png" alt="">
+              <div class="item">
+                  <p class="title2">Musical Keyboards</p>
+                  <h6>Upto 70% off</h6>
+              </div>
+            </div>
+            <div class="media-element2 s7">
+              <img src="./images/thread.png" alt="">
+              <div class="item">
+                  <p class="title2">Treadmill & <span>Exercise Bike</span></p>
+                  <h6>Upto 70% off</h6>
+              </div>
+            </div>
+            <div class="media-element2 s8">
+              <img src="./images/batman.png" alt="">
+              <div class="item">
+                  <p class="title2">Best of Action Toys</p>
+                  <h6>Upto 70% off</h6>
+              </div>
+            </div>
+            <div class="media-element2 s9">
+              <img src="./images/remote.png" alt="">
+              <div class="item">
+                  <p class="title2">Remote Control Toys</p>
+                  <h6>Upto 80% off</h6>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+    </section>
+
+<!-- ================================================== -->
+ <section class="Containers sec5" >
+    <div class="griditems">
+        <div class="gridcol col1">
+           
+             <h3>Monsoon-ready Styles</h3>
+             <i class="fa-solid fa-angle-right"></i>
+            <div class="itemgrid">
+                <img src="./images/shoe.png" alt="">
+                <p>Men's Sports Shoes</p>
+                <h6>Min 70% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/sandel.png" alt="">
+                <p>Men's Sandals</p>
+                <h6>Min 70% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/slipper.png" alt="">
+                <p>Men's Slippers</p>
+                <h6>Min 70% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/casual.png" alt="">
+                <p>Men's Casual Shoes</p>
+                <h6>Min 70% off</h6>
+            </div>
+        </div>
+        <div class="gridcol col2">
+            
+            <h3>Best Gadgets & Appliances</h3>
+            <i class="fa-solid fa-angle-right"></i>
+            <div class="itemgrid">
+                <img src="./images/headset.png" alt="">
+                <p>Headset</p>
+                <h6>Min 50% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/smart.png" alt="">
+                <p>Smart Watches</p>
+                <h6>Min 40% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/light.png" alt="">
+                <p>Smart Lighting</p>
+                <h6>Min 50% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/true.png" alt="">
+                <p>True Wireless</p>
+                <h6>Min 50% off</h6>
+            </div>
+        </div>
+        <div class="gridcol">
+            
+            <h3>Festival Fashion</h3>
+            <i class="fa-solid fa-angle-right"></i>
+            <div class="itemgrid">
+                <img src="./images/kurtha.png" alt="">
+                <p>Men's Kurtas</p>
+                <h6>Hand-picked</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/saree.png" alt="">
+                <p>Women's Saress</p>
+                <h6>Best Picks</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/jacket.png" alt="">
+                <p>Men'S Jackets</p>
+                <h6>Special offer</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/womenshoe.png" alt="">
+                <p>Women's Shoes</p>
+                <h6>Min 70% off</h6>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- ================================================== -->
+ <section class="Containers sec6" >
+    <div class="griditems">
+        <div class="gridcol col1">
+           
+             <h3>Shop Your Favorites</h3>
+             <i class="fa-solid fa-angle-right"></i>
+            <div class="itemgrid">
+                <img src="./images/dry.png" alt="">
+                <p>Dry Fruits & Nuts</p>
+                <h6>Min 50% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/skin.png" alt="">
+                <p>Skin Treatment</p>
+                <h6>Min 50% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/bath.png" alt="">
+                <p>Bath Soap</p>
+                <h6>Min 50% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/face.png" alt="">
+                <p>Face Pack</p>
+                <h6>Special offer</h6>
+            </div>
+        </div>
+        <div class="gridcol col2">
+            
+            <h3>Home Decor & Furnishings</h3>
+            <i class="fa-solid fa-angle-right"></i>
+            <div class="itemgrid">
+                <img src="./images/bedsheet.png" alt="">
+                <p>Bedsheets</p>
+                <h6>Min 50% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/cup.png" alt="">
+                <p>Cups & saucers</p>
+                <h6>Special offer</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/balnket.png" alt="">
+                <p>Blankets</p>
+                <h6>Min 50% off</h6>
+            </div>
+            <div class="itemgrid">
+                <img src="./images/bathroom.png" alt="">
+                <p>Bathroom Racks</p>
+                <h6>Min 50% off</h6>
+            </div>
+        </div>
+        <div class="gridcols"> 
+           
+            <div class="imagediv"><img src="./images/men-women-1.png" alt="" class="colimg"></div>
+        </div>
+    </div>
+ </section>
+<!-- ================================================== -->
+<section class="Containers sec4 sec7">
+    <div class="productheader">
+        <h3 class="top">Furniture Deals</h3>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    <div class="media-scroller2 snaps-inline2">
+        <div class="media-element2 sf1 sf">
+          <img src="./images/mat.png" alt="">
+          <div class="item">
+              <p class="title2">Mattresses</p>
+              <h6>From &#x20B9; 2,990</h6>
+          </div class="item">
+        </div>
+        <div class="media-element2 sf2 sf">
+          <img src="./images/sofa.png" alt="">
+          <div class="item">
+              <p class="title2">Sofa & Sectional</p>
+              <h6>From &#x20B9;7,999</h6>
+          </div>
+        </div>
+        <div class="media-element2 sf3 sf">
+          <img src="./images/office.png" alt="">
+          <div class="item">
+              <p class="title2 fash">Office Chairs</p>
+              <h6>From &#x20B9;1,890</h6>
+          </div>
+        </div>
+        <div class="media-element2 sf4 sf">
+          <img src="./images/beds.png" alt="">
+          <div class="item">
+              <p class="title2">Beds</p>
+              <h6>From &#x20B9;1,790</h6>
+          </div>
+        </div>
+        <div class="media-element2 sf5 sf">
+          <img src="./images/recliner.png" alt="">
+          <div class="item">
+              <p class="title2">Recliner</p>
+              <h6>From &#x20B9;11,999</h6>
+          </div>
+        </div>
+        <div class="media-element2 sf6 sf">
+          <img src="./images/tvunit.png" alt="">
+          <div class="item">
+              <p class="title2">TV Units</p>
+              <h6>From &#x20B9;1,249</h6>
+          </div>
+        </div>
+        <div class="media-element2 sf7 sf">
+          <img src="./images/sofabed.png" alt="">
+          <div class="item">
+              <p class="title2">Sofa Beds</p>
+              <h6>From &#x20B9;6,099</h6>
+          </div>
+        </div>
+        <div class="media-element2 sf8 sf">
+          <img src="./images/coffeetable.png" alt="">
+          <div class="item">
+              <p class="title2">Coffe Tables</p>
+              <h6>From &#x20B9;2,149</h6>
+          </div>
+        </div>
+        <div class="media-element2 sf9 sf">
+          <img src="./images/outdoor.png" alt="">
+          <div class="item">
+              <p class="title2">Oudoor Chairs</p>
+              <h6>From &#x20B9;990</h6>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+</section>
+<!-- ================================================== -->
+<section class="Containers sec4 sec7">
+    <div class="productheader">
+        <h3 class="top">Top Deals On Tvs & Appliances</h3>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    <div class="media-scroller2 snaps-inline2">
+        <div class="media-element2 sl1 sl">
+          <img src="./images/sl1.png" alt="">
+          <div class="item">
+              <p class="title2">Semi Auto Washing Machine</p>
+              <h6>Buy Now</h6>
+          </div class="item">
+        </div>
+        <div class="media-element2 sl2 sl">
+          <img src="./images/sl2.png" alt="">
+          <div class="item">
+              <p class="title2">Front Load Washing Machines</p>
+              <h6>Buy Now</h6>
+          </div>
+        </div>
+        <div class="media-element2 sl3 sl">
+          <img src="./images/sl3.png" alt="">
+          <div class="item">
+              <p class="title2 fash">Double Door Refrigerator</p>
+              <h6>From &#x20B9;16,129</h6>
+          </div>
+        </div>
+        <div class="media-element2 sl4 sl">
+          <img src="./images/sl4.png" alt="">
+          <div class="item">
+              <p class="title2">Samsung Refrigerator</p>
+              <h6>From &#x20B9;12,690</h6>
+          </div>
+        </div>
+        <div class="media-element2 sl5 sl">
+          <img src="./images/sl5.png" alt="">
+          <div class="item">
+              <p class="title2">Godrej Refrigerator</p>
+              <h6>From &#x20B9;7,240</h6>
+          </div>
+        </div>
+        <div class="media-element2 sl6 sl">
+          <img src="./images/sl6.png" alt="">
+          <div class="item">
+              <p class="title2">Top Load Washing Machines</p>
+              <h6>From &#x20B9;11,280</h6>
+          </div>
+        </div>
+        <div class="media-element2 sl7 sl">
+          <img src="./images/sl7.png" alt="">
+          <div class="item">
+              <p class="title2">Sofa Beds</p>
+              <h6>From &#x20B9;6,099</h6>
+          </div>
+        </div>
+        <div class="media-element2 sl8 sl">
+          <img src="./images/sl8.png" alt="">
+          <div class="item">
+              <p class="title2">MOTOROLA 183 L <span>Single Door</span></p>
+              <h6>From &#x20B9;23,990</h6>
+          </div>
+        </div>
+        <div class="media-element2 sl9 sl">
+          <img src="./images/sl9.png" alt="">
+          <div class="item">
+              <p class="title2">Big Washing Machines</p>
+              <h6>Buy Now</h6>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+</section>
+<!-- ================================================== -->
+    <!-- sdfghj -->
+     <section class="secL">
+     <div class="directorylink"> <span class="linkheader">Most searched for on Flipkart:</span><a class="_2HvN4k" href="/flipkart-minutes-store?marketplace=HYPERLOCAL&amp;otracker=undefined_footer" title="Flipkart Minutes">Flipkart Minutes</a><a class="_2HvN4k" href="/exchange-store?otracker=undefined_footer" title="Flipkart Exchange">Flipkart Exchange</a><a class="_2HvN4k" href="/reset-sell-store?otracker=undefined_footer" title="Flipkart Reset">Flipkart Reset</a><a class="_2HvN4k" href="/nothing-phone-2a-plus/p/itm0c99b11bfe22d?otracker=undefined_footer" title="Nothing Phone 2a Plus">Nothing Phone 2a Plus</a><a class="_2HvN4k" href="/sarees-store?otracker=undefined_footer" title="Sarees">Sarees</a><a class="_2HvN4k" href="/cmf-nothing-phone-1-5g/p/itm9bfa0dd29dbcb?otracker=undefined_footer" title="CMF by Nothing Phone 1">CMF by Nothing Phone 1</a><a class="_2HvN4k" href="/pocket-bazaar-store?otracker=undefined_footer" title="Pocket Bazaar">Pocket Bazaar</a><a class="_2HvN4k" href="/xiaomi-14-civi-cruise-blue-256-gb/p/itm34da1cf159d63?otracker=undefined_footer" title="Xiaomi 14 CIVI">Xiaomi 14 CIVI</a><a class="_2HvN4k" href="/apple-iphone-15-black-128-gb/p/itm6ac6485515ae4?otracker=undefined_footer" title="iPhone 15">iPhone 15</a><a class="_2HvN4k" href="/infinix-note-40-5g/p/itm72c4c7b7d8834?otracker=undefined_footer" title="Infinix Note 40 5G">Infinix Note 40 5G</a><a class="_2HvN4k" href="/apple-iphone-15-plus-blue-128-gb/p/itm4022c14383050?otracker=undefined_footer" title="iPhone 15 Plus">iPhone 15 Plus</a><a class="_2HvN4k" href="/apple-iphone-15-pro-blue-titanium-128-gb/p/itmcba9124f132a8?otracker=undefined_footer" title="iPhone 15 Pro Blue">iPhone 15 Pro Blue</a><a class="_2HvN4k" href="/apple-iphone-15-pro-black-titanium-128-gb/p/itm96f61fdd7e604?otracker=undefined_footer" title="iPhone 15 Pro Black">iPhone 15 Pro Black</a><a class="_2HvN4k" href="/vivo-x-fold3-pro-celestial-black-512-gb/p/itm8dfd1a1b0900f?otracker=undefined_footer" title="vivo X Fold3 Pro">vivo X Fold3 Pro</a><a class="_2HvN4k" href="/motorola-g04s/p/itm6d82d81cfa8da?otracker=undefined_footer" title="Motorola g04s">Motorola g04s</a><a class="_2HvN4k" href="/apple-iphone-15-pro-max-blue-titanium-256-gb/p/itm4a0093df4a3d7?otracker=undefined_footer" title="iPhone 15 Pro Max Blue">iPhone 15 Pro Max Blue</a><a class="_2HvN4k" href="/apple-iphone-15-pro-max-black-titanium-256-gb/p/itmd170cfc1dec9e?otracker=undefined_footer" title="iPhone 15 Pro Max Black">iPhone 15 Pro Max Black</a><a class="_2HvN4k" href="/vivo-x100-asteroid-black-256-gb/p/itm60fe0113c39cb?otracker=undefined_footer" title="Vivo x 100">Vivo x 100</a><a class="_2HvN4k" href="/oneplus-nord-ce-3-lite-5g-pastel-lime-128-gb/p/itm2cd5a4e659035?otracker=undefined_footer" title="OnePlus Nord CE 3 Lite 5G">OnePlus Nord CE 3 Lite 5G</a><a class="_2HvN4k" href="/spoyl-ff-store?otracker=undefined_footer" title="Spoyl Store">Spoyl Store</a><a class="_2HvN4k" href="/samsung-galaxy-z-flip5-mint-256-gb/p/itm3038611e95123?otracker=undefined_footer" title="SAMSUNG Flip5">SAMSUNG Flip5</a><a class="_2HvN4k" href="/samsung-galaxy-z-fold5-phantom-black-512-gb/p/itm4d14abce6dc2f?otracker=undefined_footer" title="SAMSUNG Fold5">SAMSUNG Fold5</a><a class="_2HvN4k" href="/superelite-credit-card-store?otracker=undefined_footer" title="Flipkart Axis Bank Super Elite Credit card">Flipkart Axis Bank Super Elite Credit card</a><a class="_2HvN4k" href="/5g-mobile-phones-store?otracker=undefined_footer" title="5G Mobile Phones">5G Mobile Phones</a><a class="_2HvN4k" href="/primebook-laptop-store?otracker=undefined_footer" title="Primebook Laptops">Primebook Laptops</a><a class="_2HvN4k" href="/motorola-edge-40-jet-black-256-gb/p/itmbe5b18bf1f229?otracker=undefined_footer" title="Moto Edge 40">Moto Edge 40</a><a class="_2HvN4k" href="/pages/grievance-redressal-mechanism?otracker=undefined_footer" title="Grievance Redressal">Grievance Redressal</a><a class="_2HvN4k" href="/oppo-reno7-pro-5g-startrails-blue-256-gb/p/itm9a6b0ca45fe90?otracker=undefined_footer" title="OPPO Reno7 Pro 5G">OPPO Reno7 Pro 5G</a><a class="_2HvN4k" href="/apple-iphone-13-pink-128-gb/p/itm6e30c6ee045d2?otracker=undefined_footer" title="iPhone 13">iPhone 13</a><a class="_2HvN4k" href="/helpcentre?otracker=undefined_footer" title="Help Centre">Help Centre</a><a class="_2HvN4k" href="/helpcentre/trackOrder/i/2?otracker=undefined_footer" title="Track Orders">Track Orders</a><a class="_2HvN4k" href="/helpcentre/manageOrder/i/3?otracker=undefined_footer" title="Manage Orders">Manage Orders</a><a class="_2HvN4k" href="/helpcentre/returnOrder/i/4?otracker=undefined_footer" title="Return Orders">Return Orders</a><a class="_2HvN4k" href="/the-gift-card-store?otracker=undefined_footer" title="Gift Cards Store">Gift Cards Store</a><a class="_2HvN4k" href="/flipkart-axis-bank-credit-card-store?otracker=undefined_footer" title="Flipkart Axis Bank Credit Card">Flipkart Axis Bank Credit Card</a><a class="_2HvN4k" href="/flipkart-pay-later-store?otracker=undefined_footer" title="Pay Later">Pay Later</a>
+    </div>
+    <div>
+        <div class="directorylink"><span class="linkheader">Mobiles:</span><a class="_2HvN4k" href="/redmi-12-5g-pastel-blue-128-gb/p/itm71f3d06ed5235?otracker=undefined_footer" title="Redmi 12 5G">Redmi 12 5G</a><a class="_2HvN4k" href="/realme-12-5g-navigator-beige-128-gb/p/itmaf084e49c78e2?otracker=undefined_footer" title="Realme 12+ 5G">Realme 12+ 5G</a><a class="_2HvN4k" href="/motorola-g84-5g-marshmallow-blue-256-gb/p/itm7807a599d2202?otracker=undefined_footer" title="Motorola G84">Motorola G84</a><a class="_2HvN4k" href="/realme-c53-champion-gold-128-gb/p/itm5df90168ecd05?otracker=undefined_footer" title="Realme C53">Realme C53</a><a class="_2HvN4k" href="/infinix-smart-8-rainbow-blue-64-gb/p/itmb5696a34ad441?otracker=undefined_footer" title="Infinix Smart 8">Infinix Smart 8</a><a class="_2HvN4k" href="/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?otracker=undefined_footer" title="Samsung Galaxy S23 5G">Samsung Galaxy S23 5G</a><a class="_2HvN4k" href="/samsung-galaxy-s21-fe-5g-snapdragon-888-olive-256-gb/p/itmb3a0b1e650a0e?otracker=undefined_footer" title="Samsung Galaxy S21 FE 5G Qualcomm">Samsung Galaxy S21 FE 5G Qualcomm</a><a class="_2HvN4k" href="/vivo-v30-5g-peacock-green-256-gb/p/itme3a94b78a025f?otracker=undefined_footer" title="vivo V30">vivo V30</a><a class="_2HvN4k" href="/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?otracker=undefined_footer" title="Samsung Galaxy S24 5G">Samsung Galaxy S24 5G</a><a class="_2HvN4k" href="/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?otracker=undefined_footer" title="Samsung Galaxy S24+ 5G">Samsung Galaxy S24+ 5G</a><a class="_2HvN4k" href="/apple-iphone-12-white-64-gb/p/itm8b88bdc03cd79?otracker=undefined_footer" title="iPhone 12 64GB">iPhone 12 64GB</a><a class="_2HvN4k" href="/apple-iphone-12-pro-graphite-512-gb/p/itmdf0ffb4f2150f?otracker=undefined_footer" title="iPhone 12 Pro 512GB">iPhone 12 Pro 512GB</a><a class="_2HvN4k" href="/apple-iphone-12-blue-128-gb/p/itm02853ae92e90a?otracker=undefined_footer" title="iPhone 12 128GB">iPhone 12 128GB</a><a class="_2HvN4k" href="/vivo-y15-aqua-blue-64-gb/p/itmfgadf77s87w8x?otracker=undefined_footer" title="Vivo Y15">Vivo Y15</a><a class="_2HvN4k" href="/samsung-galaxy-s21-fe-5g-snapdragon-888-lavender-256-gb/p/itmb457a6d3826ee?pid=MOBGSXD7TV34MYXX&amp;otracker=undefined_footer" title="SAMSUNG Galaxy S21 FE 5G">SAMSUNG Galaxy S21 FE 5G</a><a class="_2HvN4k" href="/infinix-hot-30i-diamond-white-64-gb/p/itm8b42a43b35895?otracker=undefined_footer" title="Infinix HOT 30i">Infinix HOT 30i</a><a class="_2HvN4k" href="/realme-10-pro-5g-dark-matter-128-gb/p/itm1e672d12a252e?otracker=undefined_footer" title="Realme 10 Pro 5G">Realme 10 Pro 5G</a><a class="_2HvN4k" href="/motorola-g62-5g-frosted-blue-128-gb/p/itm556a0153d9a10?otracker=undefined_footer" title="MOTOROLA G62 5G">MOTOROLA G62 5G</a><a class="_2HvN4k" href="/nothing-phone-1-black-128-gb/p/itmeea53a564de47?otracker=undefined_footer" title="Nothing Phone">Nothing Phone</a><a class="_2HvN4k" href="/redmi-note-12-pro-5g-onyx-black-128-gb/p/itmbc9fd7adaa32a?otracker=undefined_footer" title="REDMI Note 12 Pro 5G">REDMI Note 12 Pro 5G</a><a class="_2HvN4k" href="/infinix-smart-7-azure-blue-64-gb/p/itm7b72b66485a59?otracker=undefined_footer" title="Infinix SMART 7">Infinix SMART 7</a><a class="_2HvN4k" href="/vivo-y12-burgundy-red-64-gb/p/itmfhyjvucp5mueg?otracker=undefined_footer" title="Vivo Y12">Vivo Y12</a><a class="_2HvN4k" href="/oppo-a12-blue-32-gb/p/itmfc859cdf39e01?otracker=undefined_footer" title="Oppo A12">Oppo A12</a><a class="_2HvN4k" href="/q/motorola-5g-phone?otracker=undefined_footer" title="Motorola 5g Phone">Motorola 5g Phone</a><a class="_2HvN4k" href="/q/realme-5g-smartphone?otracker=undefined_footer" title="Realme 5g Smartphone">Realme 5g Smartphone</a><a class="_2HvN4k" href="/q/apple-5g-phone?otracker=undefined_footer" title="Apple 5g Phone">Apple 5g Phone</a><a class="_2HvN4k" href="/q/iqoo-5g-phones?otracker=undefined_footer" title="Iqoo 5g Phones">Iqoo 5g Phones</a><a class="_2HvN4k" href="/q/oneplus-5g-phones?otracker=undefined_footer" title="Oneplus 5g Phones">Oneplus 5g Phones</a><a class="_2HvN4k" href="/q/vivo-5g-phones?otracker=undefined_footer" title="Vivo 5g Phones">Vivo 5g Phones</a><a class="_2HvN4k" href="/q/oppo-5g-smart-phones?otracker=undefined_footer" title="Oppo 5g Smart Phones">Oppo 5g Smart Phones</a><a class="_2HvN4k" href="/oppo-f15-blazing-blue-128-gb/p/itm56d35565691ea?otracker=undefined_footer" title="Oppo F15">Oppo F15</a><a class="_2HvN4k" href="/oppo-a31-fantasy-white-64-gb/p/itm82e19f459118a?otracker=undefined_footer" title="Oppo A31">Oppo A31</a><a class="_2HvN4k" href="/samsung-galaxy-a71-prism-crush-blue-128-gb/p/itmb719fd01880e3?otracker=undefined_footer" title="Samsung A71">Samsung A71</a><a class="_2HvN4k" href="/samsung-galaxy-a51-prism-crush-blue-128-gb/p/itme8079f0fedb33?otracker=undefined_footer" title="Samsung A51">Samsung A51</a><a class="_2HvN4k" href="/samsung-galaxy-a31-prism-crush-black-128-gb/p/itm629da21d10cba?otracker=undefined_footer" title="Samsung A31">Samsung A31</a><a class="_2HvN4k" href="/apple-iphone-11-black-64-gb/p/itm4e5041ba101fd?otracker=undefined_footer" title="iPhone  11">iPhone  11</a><a class="_2HvN4k" href="/apple-iphone-11-pro-space-grey-64-gb/p/itm7e24c1c560208?otracker=undefined_footer" title="iPhone  11 Pro">iPhone  11 Pro</a><a class="_2HvN4k" href="/4g-mobile-phones-store?otracker=undefined_footer" title="4G Mobile">4G Mobile</a><a class="_2HvN4k" href="/nokia-mobile-phones-store?otracker=undefined_footer" title="Nokia Mobile">Nokia Mobile</a><a class="_2HvN4k" href="/samsung-mobile-store?otracker=undefined_footer" title="Samsung Mobile">Samsung Mobile</a><a class="_2HvN4k" href="/mobiles/apple~brand/pr?sid=tyy,4io&amp;otracker=undefined_footer" title="iphone">iphone</a><a class="_2HvN4k" href="/oppo-mobile-phones-store?otracker=undefined_footer" title="Oppo Mobile">Oppo Mobile</a><a class="_2HvN4k" href="/mobiles/vivo~brand/pr?sid=tyy,4io&amp;otracker=undefined_footer" title="Vivo Mobile">Vivo Mobile</a></div>
+    
+        <div class="directorylink"><span class="linkheader">Laptops:</span><a class="_2HvN4k" href="/avita-liber-core-i7-10th-gen-16-gb-1-tb-ssd-windows-10-home-ns14a8inr671-pag-thin-light-laptop/p/itmbe8a49652ca6f?pid=COMGQKQ7GGNFR8N4&amp;otracker=undefined_footer" title="Asus ROG Ally">Asus ROG Ally</a><a class="_2HvN4k" href="/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mneh3hn-a/p/itmaea892f7dd66e?otracker=undefined_footer" title="MacBook Pro M2">MacBook Pro M2</a><a class="_2HvN4k" href="/q/premium-laptops?otracker=undefined_footer" title="Premium Laptop">Premium Laptop</a><a class="_2HvN4k" href="asus-rog-strix-scar-16-2023-core-i9-13th-gen-32-gb-1-tb-ssd-windows-11-home-12-gb-graphics-nvidia-geforce-rtx-4080-g634jz-n4062ws-gaming-laptop/p/itma62818795454d?otracker=undefined_footer" title="ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen">ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen</a><a class="_2HvN4k" href="/asus-rog-zephyrus-m16-2023-core-i9-13th-gen-32-gb-2-tb-ssd-windows-11-home-16-gb-graphics-nvidia-geforce-rtx-4090-gu604vy-nm058ws-gaming-laptop/p/itm7ad23e5445edf?otracker=undefined_footer" title="ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen">ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen</a><a class="_2HvN4k" href="/asus-zenbook-14-oled-2022-core-i5-12th-gen-16-gb-512-gb-ssd-windows-11-home-ux3402za-km531ws-thin-light-laptop/p/itm92e2e0518b654?otracker=undefined_footer" title="ASUS Zenbook 14 OLED (2022)">ASUS Zenbook 14 OLED (2022)</a><a class="_2HvN4k" href="/realme-book-prime-core-i5-11th-gen-16-gb-512-gb-ssd-windows-11-home-cloudpro002-thin-light-laptop/p/itm7d1b1a9d3579b?otracker=undefined_footer" title="Realme Book Prime Core i5 11th Gen">Realme Book Prime Core i5 11th Gen</a><a class="_2HvN4k" href="/microsoft-surface-go-pentium-gold-8-gb-128-gb-ssd-windows-10-home-s-mode-1824-2-1-laptop/p/itmfb6pyjzy9y8n4?otracker=undefined_footer" title="Microsoft Surface Go Pentium 128GB">Microsoft Surface Go Pentium 128GB</a><a class="_2HvN4k" href="/laptops/apple~brand/pr?sid=6bo,b5g&amp;otracker=undefined_footer" title="Apple Laptops">Apple Laptops</a><a class="_2HvN4k" href="/laptops/acer~brand/pr?sid=6bo,b5g&amp;otracker=undefined_footer" title="Acer Laptops">Acer Laptops</a><a class="_2HvN4k" href="/laptops/lenovo~brand/pr?sid=6bo,b5g&amp;otracker=undefined_footer" title="Lenovo Laptops">Lenovo Laptops</a><a class="_2HvN4k" href="/laptops/dell~brand/pr?sid=6bo,b5g&amp;otracker=undefined_footer" title="Dell Laptops">Dell Laptops</a><a class="_2HvN4k" href="/laptops/asus~brand/pr?sid=6bo,b5g&amp;otracker=undefined_footer" title="Asus Laptops">Asus Laptops</a><a class="_2HvN4k" href="/laptops/hp~brand/pr?sid=6bo,b5g&amp;otracker=undefined_footer" title="HP Laptops">HP Laptops</a><a class="_2HvN4k" href="/gaming-laptops-store?otracker=undefined_footer" title="Gaming Laptops">Gaming Laptops</a><a class="_2HvN4k" href="/laptops/~2-in-1-laptops/pr?sid=6bo,b5g&amp;otracker=undefined_footer" title="2 in 1 Laptops">2 in 1 Laptops</a><a class="_2HvN4k" href="/laptops-store?otracker=undefined_footer" title="Laptops">Laptops</a><a class="_2HvN4k" href="/q/dell-latest-laptops-2022?otracker=undefined_footer" title="Dell latest laptops 2022">Dell latest laptops 2022</a><a class="_2HvN4k" href="/q/hp-latest-laptops-2022?otracker=undefined_footer" title="HP latest laptops 2022">HP latest laptops 2022</a><a class="_2HvN4k" href="/infinix-inbook-y1-plus-intel-core-i3-10th-gen-8-gb-256-gb-ssd-windows-11-home-xl28-thin-light-laptop/p/itm6c066be25ddde?otracker=undefined_footer" title="Infinix INBook Y1 Plus">Infinix INBook Y1 Plus</a><a class="_2HvN4k" href="/samsung-galaxy-book3-core-i7-13th-gen-16-gb-512-gb-ssd-windows-11-home-thin-light-laptop/p/itmf5efb3b1c35fa?otracker=undefined_footer" title="SAMSUNG Galaxy Book3">SAMSUNG Galaxy Book3</a><a class="_2HvN4k" href="/q/12th-gen-intel-core-laptops?otracker=undefined_footer" title="12th Gen Intel Core Laptops">12th Gen Intel Core Laptops</a></div>
+    <!-- </div> -->
+   
+</section>
+     <!-- jj -->
+
+<!-- ==================================================== -->
+
+<footer>
+    <div class="">
+        <div class="conts">
+            <div class="con">
+                
+                    <p>ABOUT</p>
+                
+                <div class="links">
+                    <a href="#">Contact Us</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Flipkart Stories</a>
+                    <a href="#">Press</a>
+                    <a href="#">Corporate Information</a>
+                    
+                </div>
+            </div>
+            <div class="con">
+                
+                    <p>GROUP COMPANIES</p>
+               
+                <div class="links">
+                    <a href="#">Myntra</a>
+                    <a href="#">Cleartrip</a>
+                    <a href="#">Shopsy</a>
+                    
+                </div>
+            </div>
+            <div class="con">
+                
+                    <p>HELP</p>
+               
+                <div class="links">
+                    <a href="#">Payments</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Cancellation & Return</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Report Infringement</a>
+                   
+                    
+                </div>
+            </div>
+            <div class="con">
+            
+                    <p>CONSUMER POLICY</p>
+                
+                <div class="links">
+                    <a href="#">Cancellation & Return</a>
+                    <a href="#">Terms Of Use</a>
+                    <a href="#">Security</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Grievance Redressal</a>
+                    <a href="#">EPR Compliance</a>
+                    
+                </div>
+            </div>
+            <div class="con">
+                
+                    <p>Mail Us:</p>
+                
+                <div class="links">
+                   <p class="linkpara">Flipkart Internet Private Limited,<br> 
+                    Buildings Alyssa, Begonia &amp;<br>
+                    Clove Embassy Tech Village,<br>
+                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                     Bengaluru, 560103,<br>
+                    Karnataka, India</p>
+                </div>
+            </div>
+            <div class="con">
+                
+                    <p>Register Office Address:</p>
+                
+                <div class="links">
+                    <p class="linkpara">Flipkart Internet Private Limited,<br>
+                    Buildings Alyssa, Begonia &amp;<br>
+                    Clove Embassy Tech Village <br>
+                     Outer Ring Road, Devarabeesanahalli Village, <br>
+                     Bengaluru, 560103, <br>
+                     Karnataka, India <br>
+                    CIN : U51109KA2012PTC066107 <br>
+                    Telephone: <a href="tel:044-45614700">044-45614700</a> / <a href="tel:044-67415800">044-67415800</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerbtm">
+        <div class="footbtmgroup">
+            <div class="btmpara1">
+                <span id="q1"><i class="fa-solid fa-store" ></i> Become a Seller</span>
+            </div>
+            <div class="btmpara1">
+                <span id="q2"><i class="fa-regular fa-star" ></i> Advertise</span>
+            </div>
+            <div class="btmpara1">
+                <span id="q3"><i class="fa-solid fa-gift" ></i></i> Gift Cards</span>
+            </div>
+            <div class="btmpara1">
+                <span id="q4"><i class="fa-solid fa-question" id="ques"></i> Help Center</span>
+            </div>
+            <div class="copyright">
+                <p>2007-2024 Flipkart.com</p>
+            </div>
+            <div class="paymentimg">
+                <img src="./images/payment-method-c454fb.svg" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
